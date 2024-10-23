@@ -29,7 +29,7 @@ Best performing model (Decision Tree):
 - Training time: 3.44s
 
 ## Repository Structure
-- `bank-marketing-analysis.ipynb`: Main analysis notebook
+- `bank-marketing-analysis.ipynb`: Notebook containing the full analysis
 - `README.md`: Project documentation
 - `data/bank-additional-full.csv`: Dataset
 
