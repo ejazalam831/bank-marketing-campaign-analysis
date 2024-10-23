@@ -4,7 +4,7 @@
 Analysis of Portuguese bank marketing campaigns to predict term deposit subscriptions using various machine learning classification models (Logistic Regression, KNN, Decision Tree, SVM). The project aims to improve campaign efficiency and reduce unnecessary customer contacts.
 
 ## Key Findings
-### Model Performance
+### 1. Model Performance
 - **Best Model**: Decision Tree
   - Accuracy: 85.29%
   - ROC AUC: 0.7751
@@ -15,19 +15,19 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
   - KNN: 78.35% accuracy, ROC AUC 0.7121
   - SVM: 68.65% accuracy, ROC AUC 0.7413
 
-### Business Insights
-1. Customer Segments
-- Highest success rates:
-  * Students: 33.28%
-  * Retired: 29.36%
-  * Unemployed: 17.07%
+### 2. Business Insights
+  1. Customer Segments
+  - Highest success rates:
+    * Students: 33.28%
+    * Retired: 29.36%
+    * Unemployed: 17.07%
 
-2. Timing Patterns
-- Best performing months:
-  * March: 51.04% success rate
-  * December: 47.13% success rate
-  * September: 44.85% success rate
-- Clear end-of-quarter pattern in success rates
+  2. Timing Patterns
+  - Best performing months:
+    * March: 51.04% success rate
+    * December: 47.13% success rate
+    * September: 44.85% success rate
+  - Clear end-of-quarter pattern in success rates
 
 ## Recommendations
 ### 1. Campaign Optimization
@@ -85,13 +85,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
    - Implemented multiple classifiers 
    - Performed hyperparameter tuning
    - Conducted comparative analysis
-
-## Results
-Best performing model (Decision Tree):
-- Accuracy: 85.29%
-- ROC AUC: 0.7751
-- F1-score (minority class): 0.47
-- Training time: 3.44s
 
 ## Repository Structure
 ```
