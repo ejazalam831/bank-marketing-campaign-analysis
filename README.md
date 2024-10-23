@@ -31,7 +31,7 @@ Best performing model (Decision Tree):
 ## Repository Structure
 - `bank-marketing-analysis.ipynb`: Main analysis notebook
 - `README.md`: Project documentation
-- `bank-additional-full.csv`: Dataset
+- `data/bank-additional-full.csv`: Dataset
 
 ## Requirements
 - Python 3.x
