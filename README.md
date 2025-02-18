@@ -3,6 +3,32 @@
 ## Project Overview
 Analysis of Portuguese bank marketing campaigns to predict term deposit subscriptions using various machine learning classification models (Logistic Regression, KNN, Decision Tree, SVM). The project aims to improve campaign efficiency and reduce unnecessary customer contacts.
 
+## Data
+- **Source**: Portuguese banking institution
+- **Scope**: 17 marketing campaigns (May 2008 - November 2010)
+- **Size**: 41,188 records
+- **Features**: 21 attributes including:
+  * Client demographics
+  * Campaign information
+  * Economic indicators
+- **Target**: Term deposit subscription (yes/no)
+
+## Methodology
+1. **Data Preprocessing**:
+   - Handled missing values
+   - Encoded categorical variables
+   - Scaled numerical features
+
+2. **Feature Engineering**:
+   - Selected relevant features
+   - Created derived features
+   - Applied SMOTE for class balancing
+
+3. **Model Development**:
+   - Implemented multiple classifiers 
+   - Performed hyperparameter tuning
+   - Conducted comparative analysis
+
 ## Key Findings
 ### 1. Model Performance
 - **Best Model**: Decision Tree
@@ -60,31 +86,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
   * Monitor class distribution in predictions
   * Validate predictions against actual outcomes
     
-## Data
-- **Source**: Portuguese banking institution
-- **Scope**: 17 marketing campaigns (May 2008 - November 2010)
-- **Size**: 41,188 records
-- **Features**: 21 attributes including:
-  * Client demographics
-  * Campaign information
-  * Economic indicators
-- **Target**: Term deposit subscription (yes/no)
-
-## Methodology
-1. **Data Preprocessing**:
-   - Handled missing values
-   - Encoded categorical variables
-   - Scaled numerical features
-
-2. **Feature Engineering**:
-   - Selected relevant features
-   - Created derived features
-   - Applied SMOTE for class balancing
-
-3. **Model Development**:
-   - Implemented multiple classifiers 
-   - Performed hyperparameter tuning
-   - Conducted comparative analysis
 
 ## Repository Structure
 ```
@@ -94,22 +95,6 @@ project/
 ├── bank-marketing-analysis.ipynb 
 └── data/
     └── bank-additional-full.csv
-```
-
-## Setup and Installation
-1. Clone the repository
-```bash
-git clone [repository-url]
-```
-
-2. Install required packages
-```bash
-pip install -r requirements.txt
-```
-
-3. Run Jupyter notebook
-```bash
-jupyter notebook
 ```
 
 ## Acknowledgments
