@@ -95,20 +95,7 @@ Comparison of model performance:
   * Balance workload across peak months
   * Optimize contact attempts per client
 
-### 2. Model Implementation
-- **Deployment Strategy**:
-  * Use Decision Tree classifier with optimized parameters:
-    - max_depth: 5
-    - min_samples_leaf: 4
-    - min_samples_split: 5
-  * Implement SMOTE for handling class imbalance
-  * Regular model retraining (quarterly recommended)
 
-- **Monitoring Plan**:
-  * Track ROC-AUC and F1-score for model performance
-  * Monitor class distribution in predictions
-  * Validate predictions against actual outcomes
-    
 
 ## Repository Structure
 ```
