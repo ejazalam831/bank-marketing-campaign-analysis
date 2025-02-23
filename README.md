@@ -29,14 +29,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
    - Performed hyperparameter tuning
    - Conducted comparative analysis
 
-## Key Findings
-### 1. Model Performance
-- **Best Model**: Decision Tree
-  - Accuracy: 85.29%
-  - ROC AUC: 0.7751
-  - F1-score (minority class): 0.47
-  - Training time: 3.44s
-
 
 ## Key Findings
 #### 1. Client Segmentation:
