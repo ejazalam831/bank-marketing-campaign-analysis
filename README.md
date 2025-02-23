@@ -63,17 +63,17 @@ Comparison of model performance:
 | SVM | 68.65% | 0.741 | 685.38s |
 
 ## Recommendations
-1. Campaign Optimization:
+#### 1. Campaign Optimization:
 - Focus on student and retired segments
 - Prioritize end-of-quarter timing
 - Develop segment-specific marketing approaches
 
-2. Resource Allocation:
+#### 2. Resource Allocation:
 - Implement predictive scoring for contact prioritization
 - Adjust staffing based on predicted success rates
 - Balance workload across peak months
 
-3. Implementation Strategy:
+#### 3. Implementation Strategy:
 - Deploy optimized Decision Tree model
 - Retrain quarterly with new data
 - Monitor performance metrics regularly
