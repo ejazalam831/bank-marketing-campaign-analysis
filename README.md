@@ -48,7 +48,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
     * Retired: 29.36%
     * Unemployed: 17.07%
 
-ter pattern in success rates
 
 ## Key Findings
 #### 1. Client Segmentation:
