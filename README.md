@@ -55,6 +55,21 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
     * September: 44.85% success rate
   - Clear end-of-quarter pattern in success rates
 
+## Key Findings
+#### 1. Client Segmentation:
+- Students show highest subscription rate (33.28%)
+- Retired clients have second-highest rate (29.36%)
+- Unemployed customers show surprisingly high success rate (17.07%)
+
+#### 2. Temporal Patterns:
+- End-of-quarter months perform best
+- March (51.04%), December (47.13%), September (44.85%)
+- May shows highest contact volume but lower success rate
+
+#### 3. Economic Indicators:
+- Strong correlations between employment rate and success
+- Consumer confidence index influences subscription probability
+- Market indicators provide valuable context for timing
 ## Recommendations
 ### 1. Campaign Optimization
 - **Timing**:
@@ -114,22 +129,7 @@ The dataset includes information from 17 marketing campaigns conducted between M
 - Economic indicators
 - Target variable: term deposit subscription (yes/no)
 
-## Key Findings
 
-1. Client Segmentation:
-- Students show highest subscription rate (33.28%)
-- Retired clients have second-highest rate (29.36%)
-- Unemployed customers show surprisingly high success rate (17.07%)
-
-2. Temporal Patterns:
-- End-of-quarter months perform best
-- March (51.04%), December (47.13%), September (44.85%)
-- May shows highest contact volume but lower success rate
-
-3. Economic Indicators:
-- Strong correlations between employment rate and success
-- Consumer confidence index influences subscription probability
-- Market indicators provide valuable context for timing
 
 ## Model Performance
 
