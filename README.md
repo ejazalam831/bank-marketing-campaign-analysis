@@ -36,10 +36,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
   - ROC AUC: 0.7751
   - F1-score (minority class): 0.47
   - Training time: 3.44s
-- **Model Comparison**:
-  - Logistic Regression: 68.61% accuracy, ROC AUC 0.7397
-  - KNN: 78.35% accuracy, ROC AUC 0.7121
-  - SVM: 68.65% accuracy, ROC AUC 0.7413
 
 
 ## Key Findings
