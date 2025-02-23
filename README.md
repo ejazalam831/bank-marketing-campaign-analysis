@@ -48,12 +48,7 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
     * Retired: 29.36%
     * Unemployed: 17.07%
 
-  2. Timing Patterns
-  - Best performing months:
-    * March: 51.04% success rate
-    * December: 47.13% success rate
-    * September: 44.85% success rate
-  - Clear end-of-quarter pattern in success rates
+ter pattern in success rates
 
 ## Key Findings
 #### 1. Client Segmentation:
@@ -70,6 +65,7 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
 - Strong correlations between employment rate and success
 - Consumer confidence index influences subscription probability
 - Market indicators provide valuable context for timing
+
 ## Recommendations
 ### 1. Campaign Optimization
 - **Timing**:
