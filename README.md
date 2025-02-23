@@ -79,22 +79,6 @@ Comparison of model performance:
 - Monitor performance metrics regularly
 
 
-### 1. Campaign Optimization
-- **Timing**:
-  * Focus campaigns on end-of-quarter months (March, June, September, December)
-  * Reduce volume during historically low-performing months
-  * Schedule calls during optimal hours/days
-
-- **Targeting**:
-  * Prioritize student and retired segments
-  * Develop specialized scripts for high-potential segments
-  * Reduce focus on low-probability segments
-
-- **Resource Allocation**:
-  * Adjust staffing based on predicted success rates
-  * Balance workload across peak months
-  * Optimize contact attempts per client
-
 
 
 ## Repository Structure
