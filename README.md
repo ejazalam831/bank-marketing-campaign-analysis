@@ -46,6 +46,22 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
 - Consumer confidence index influences subscription probability
 - Market indicators provide valuable context for timing
 
+## Model Performance
+
+After optimization, our final Decision Tree model achieved:
+- Accuracy: 85.29%
+- ROC AUC: 0.775
+- F1-Score (Subscription class): 0.47
+
+Comparison of model performance:
+
+| Model | Accuracy | ROC AUC | Training Time |
+|-------|----------|----------|---------------|
+| Decision Tree | 85.29% | 0.775 | 16.30s |
+| KNN | 78.35% | 0.712 | 10.27s |
+| Logistic Regression | 6861% | 0.739 | 9.09s |
+| SVM | 68.65% | 0.741 | 685.38s |
+
 ## Recommendations
 ### 1. Campaign Optimization
 - **Timing**:
@@ -107,21 +123,6 @@ The dataset includes information from 17 marketing campaigns conducted between M
 
 
 
-## Model Performance
-
-After optimization, our final Decision Tree model achieved:
-- Accuracy: 85.29%
-- ROC AUC: 0.775
-- F1-Score (Subscription class): 0.47
-
-Comparison of model performance:
-
-| Model | Accuracy | ROC AUC | Training Time |
-|-------|----------|----------|---------------|
-| Decision Tree | 85.29% | 0.775 | 3.44s |
-| KNN | 78.35% | 0.712 | 1.36s |
-| Logistic Regression | 68.61% | 0.739 | 3.53s |
-| SVM | 68.65% | 0.741 | 802.02s |
 
 ## Business Recommendations
 
