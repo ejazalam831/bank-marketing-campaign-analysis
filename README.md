@@ -3,8 +3,8 @@
 ## Project Overview
 Analysis of Portuguese bank marketing campaigns to predict term deposit subscriptions using various machine learning classification models (Logistic Regression, KNN, Decision Tree, SVM). The project aims to improve campaign efficiency and reduce unnecessary customer contacts.
 
-## Data
-- **Source**: Portuguese banking institution
+## Data Description
+The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. The dataset is publicly available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 - **Scope**: 17 marketing campaigns (May 2008 - November 2010)
 - **Size**: 41,188 records
 - **Features**: 21 attributes including:
@@ -100,19 +100,5 @@ project/
 ## Overview
 This project analyzes the effectiveness of telephone marketing campaigns conducted by a Portuguese banking institution. Using machine learning techniques, we develop predictive models to identify customers most likely to subscribe to term deposits, aiming to improve campaign efficiency and ROI.
 
-## Data Description
-The dataset includes information from 17 marketing campaigns conducted between May 2008 and November 2010, containing:
-- 41,188 records with 21 features
-- Client demographic data
-- Campaign interaction details
-- Economic indicators
-- Target variable: term deposit subscription (yes/no)
 
 
-
-
-## Business Recommendations
-
-
----
-**Note**: This project is part of a data science portfolio and uses publicly available data from the UCI Machine Learning Repository.
