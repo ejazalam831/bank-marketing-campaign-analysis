@@ -14,21 +14,65 @@ The data is from a Portugese banking institution and is a collection of the resu
 - **Target**: Term deposit subscription (yes/no)
 
 ## Methodology
-1. **Data Preprocessing**:
-   - Handled missing values
-   - Encoded categorical variables
-   - Scaled numerical features
+The analysis was conducted in three comprehensive phases, each building upon the previous to create a robust predictive system for bank marketing campaigns:
+#### 1. Data Cleaning & Preprocessing:
+##### a. Data Cleaning Process:
+   - Performed initial quality assessment and structure validation
+   - Selected relevant features for analysis (client demographics, banking relationship, economic indicators)
+   - Checked for and handled missing values ("unknown" values)
+   - Removed records with incomplete information
+##### b. Data Preprocessing Pipeline:
+   - Implemented comprehensive data cleaning:
+     - Standardized categorical variables
+     - Encoded categorical features
+     - Scaled numerical features
+     - Prepared target variable encoding
+   - Resulted in a clean dataset of 30,488 records with validated features
+     
+#### 2. Feature Engineering & Representation:
+Developed a comprehensive feature engineering pipeline combining multiple feature types:
+##### a. Feature Processing:
+   - Numerical Features: Applied StandardScaler for normalization
+   - Categorical Features: Implemented one-hot encoding
+##### b. Feature Selection:
+   - Selected relevant features based on correlation analysis and domain knowledge
+   - Final feature set included 22 dimensions after encoding:
+     - Client demographics (age, job, marital status, education)
+     - Banking relationship indicators (default, housing, loan)
+     - Economic context features (employment rate, consumer indices)
 
-2. **Feature Engineering**:
-   - Selected relevant features
-   - Created derived features
-   - Applied SMOTE for class balancing
+#### 3. Model Development & Evaluation:
+##### a. Model Selection & Implementation:
+Implemented four different machine learning models:
+   - Logistic Regression: For baseline linear classification
+   - K-Nearest Neighbors: For pattern-based prediction
+   - Decision Trees: For interpretable rule-based classification
+   - Support Vector Machines: For complex boundary detection
+##### b. Baseline Model Development:
+   - Implemented evaluation framework based on:
+     - Overall accuracy and classification performance
+     - Training time and computational efficiency
+     - Class-wise precision, recall, and F1-scores
+   - Established baseline performance with default parameters
+##### c. Model Optimization:
+   - Implemented hyperparameter optimization using HalvingGridSearchCV
+   - Addressed class imbalance through:
+     - SMOTE implementation
+     - Balanced class weights
+     - Stratified sampling
+   - Performed cross-validation for robust performance estimation
+##### d. Performance Results:
+Base Models:
+   - Logistic Regression: 87.34% accuracy (0.05s training)
+   - KNN: 86.37% accuracy (0.00s training)
+   - Decision Tree: 85.45% accuracy (0.06s training)
+   - SVM: 87.41% accuracy (24.47s training)
 
-3. **Model Development**:
-   - Implemented multiple classifiers 
-   - Performed hyperparameter tuning
-   - Conducted comparative analysis
-
+Optimized Models:
+   - Logistic Regression: 68.61% accuracy with balanced prediction
+   - KNN: 78.35% accuracy with optimized neighbors
+   - Decision Tree: 85.29% accuracy with best overall balance
+   - SVM: 68.65% accuracy with balanced classes
 
 ## Key Findings
 #### 1. Client Segmentation:
