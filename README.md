@@ -41,13 +41,6 @@ Analysis of Portuguese bank marketing campaigns to predict term deposit subscrip
   - KNN: 78.35% accuracy, ROC AUC 0.7121
   - SVM: 68.65% accuracy, ROC AUC 0.7413
 
-### 2. Business Insights
-  1. Customer Segments
-  - Highest success rates:
-    * Students: 33.28%
-    * Retired: 29.36%
-    * Unemployed: 17.07%
-
 
 ## Key Findings
 #### 1. Client Segmentation:
